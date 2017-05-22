@@ -1,0 +1,54 @@
+﻿<Window x:Class="PokemonBattleOnline.PBO.RoomWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:b="clr-namespace:PokemonBattleOnline.PBO.Battle"
+        xmlns:ui="clr-namespace:PokemonBattleOnline.PBO.Elements"
+        xmlns:l="clr-namespace:PokemonBattleOnline.PBO.Lobby"
+        xmlns:e="clr-namespace:PokemonBattleOnline.PBO.Editor"
+        xmlns:c="clr-namespace:PokemonBattleOnline.PBO.Converters"
+        ResizeMode="CanMinimize" SizeToContent="WidthAndHeight" Title="对战房间" Background="#f5f5f5" TextOptions.TextRenderingMode="Grayscale">
+    <Grid Height="480" Width="700">
+        <b:BattleReport x:Name="br" Margin="405,0,0,22" Background="White"/>
+        <Canvas Width="400" HorizontalAlignment="Left">
+            <b:NDS x:Name="Game" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        </Canvas>
+        <Grid x:Name="Prepare" Background="#f5f5f5" Width="400" HorizontalAlignment="Left">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="32"/>
+                <RowDefinition Name="PX1" Height="0"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <ContentControl Content="{Binding Room[0]}" ContentTemplate="{x:Static ui:Cartes.User}" HorizontalAlignment="Left"/>
+            <ContentControl Content="{Binding Room[2]}" ContentTemplate="{x:Static ui:Cartes.UserR}" HorizontalAlignment="Right" Grid.Column="1"/>
+            <ContentControl Content="{Binding Room[1]}" ContentTemplate="{x:Static ui:Cartes.User}" HorizontalAlignment="Left" Grid.Row="1"/>
+            <ContentControl Content="{Binding Room[3]}" ContentTemplate="{x:Static ui:Cartes.UserR}" HorizontalAlignment="Right" Grid.Row="1" Grid.Column="1"/>
+            <TextBlock Text="VS" Foreground="#333333" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.RowSpan="2"/>
+            <TextBlock Name="Spectating" Text="观战中，游戏尚未开始，等待游戏开始。" Margin="0,35,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Grid.Row="2"/>
+            <StackPanel Name="PrepareTeam" Orientation="Horizontal" Margin="0,32,0,0" Height="30" VerticalAlignment="Top" HorizontalAlignment="Center" Grid.Row="2">
+                <Image Height="30" Width="40" Source="{Binding [0],Converter={x:Static c:PokemonDataIcon.C}}"/>
+                <Image Height="30" Width="40" Source="{Binding [1],Converter={x:Static c:PokemonDataIcon.C}}"/>
+                <Image Height="30" Width="40" Source="{Binding [2],Converter={x:Static c:PokemonDataIcon.C}}"/>
+                <Image x:Name="p3" Height="30" Width="40" Source="{Binding [3],Converter={x:Static c:PokemonDataIcon.C}}"/>
+                <Image Visibility="{Binding Visibility,ElementName=p3}" Height="30" Width="40" Source="{Binding [4],Converter={x:Static c:PokemonDataIcon.C}}"/>
+                <Image Visibility="{Binding Visibility,ElementName=p3}" Height="30" Width="40" Source="{Binding [5],Converter={x:Static c:PokemonDataIcon.C}}"/>
+            </StackPanel>
+            <ListBox Name="Teams" Margin="0,32,0,0" Grid.Row="2" BorderBrush="{x:Null}" Background="White" BorderThickness="0">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal" Height="30">
+                            <Image Height="30" Width="40" Source="{Binding [0].RIcon}"/>
+                            <Image Height="30" Width="40" Source="{Binding [1].RIcon}"/>
+                            <Image Height="30" Width="40" Source="{Binding [2].RIcon}"/>
+                            <Image Height="30" Width="40" Source="{Binding [3].RIcon}"/>
+                            <Image Height="30" Width="40" Source="{Binding [4].RIcon}"/>
+                            <Image Height="30" Width="40" Source="{Binding [5].RIcon}"/>
+                            <TextBlock Text="{Binding Name}" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            <Button Name="Start" Click="Start_Click" Content="使用所选队伍开始对战！" Height="32" VerticalAlignment="Top" Grid.Row="2"/>
+        </Grid>
+        <l:ChatBox x:Name="Chat" Height="22" VerticalAlignment="Bottom" Margin="405,0,0,0"/>
+    </Grid>
+</Window>

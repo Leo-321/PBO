@@ -1,0 +1,44 @@
+﻿<UserControl x:Class="PokemonBattleOnline.PBO.EditorPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:pm="clr-namespace:PokemonBattleOnline.Game;assembly=PBO.Game"
+		     xmlns:ui="clr-namespace:PokemonBattleOnline.PBO.Elements"
+             xmlns:e="clr-namespace:PokemonBattleOnline.PBO.Editor"
+             MinHeight="400" MinWidth="600">
+    <UserControl.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="0.5,1" SpreadMethod="Reflect">
+            <GradientStop Color="#e4f4da"/>
+            <GradientStop Color="#89c261" Offset="1"/>
+        </LinearGradientBrush>
+    </UserControl.Background>
+    <Grid>
+        <Rectangle Name="gridbg" IsHitTestVisible="False">
+            <Rectangle.Fill>
+                <ImageBrush TileMode="Tile" Viewport="0,0,248,73" ViewportUnits="Absolute" ImageSource="/PBO;component/images/PokemonBankBackground1.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Margin="{Binding Margin,ElementName=gridbg}" IsHitTestVisible="False">
+            <Rectangle.Fill>
+                <ImageBrush TileMode="Tile" Viewport="0,0,25,23" ViewportUnits="Absolute" ImageSource="/PBO;component/images/PokemonBankBackground2.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Margin="{Binding Margin,ElementName=gridbg}" IsHitTestVisible="False">
+            <Rectangle.Fill>
+                <ImageBrush TileMode="Tile" Viewport="0,0,38,76" ViewportUnits="Absolute" ImageSource="/PBO;component/images/PokemonBankBackground3.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <e:PokemonBank DataContext="{Binding}"/>
+        <e:PokemonEditorView x:Name="pev" DataContext="{Binding EditingPokemon}" HorizontalAlignment="Right">
+            <e:PokemonEditorView.Style>
+                <Style TargetType="e:PokemonEditorView">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Origin}" Value="{x:Null}">
+                            <Setter Property="Visibility" Value="Collapsed"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </e:PokemonEditorView.Style>
+        </e:PokemonEditorView>
+    </Grid>
+</UserControl>

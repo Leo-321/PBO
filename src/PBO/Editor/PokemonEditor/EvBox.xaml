@@ -1,0 +1,67 @@
+﻿<UserControl x:Class="PokemonBattleOnline.PBO.Editor.EvBox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:ui="clr-namespace:PokemonBattleOnline.PBO.Elements"
+             Width="84" Height="24" ToolTip="努力值" DataContextChanged="UserControl_DataContextChanged">
+    <Grid Background="Transparent">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition x:Name="Drag" MinWidth="0" MaxWidth="63"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="21"/>
+        </Grid.ColumnDefinitions>
+        <Rectangle Fill="#40ffffff"/>
+        <Grid Name="Buttons" Visibility="Collapsed" Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <RepeatButton Click="IncreaseButton_Click">
+                <RepeatButton.Template>
+                    <ControlTemplate TargetType="RepeatButton">
+                        <Grid Name="grid" Background="Transparent">
+                            <Polygon x:Name="tri" Points="0,4 7,4 3.5,0" Fill="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="grid" Property="Background" Value="#40ffffff"/>
+                                <Setter TargetName="tri" Property="Fill" Value="#c89098"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="tri" Property="Fill" Value="#800000"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </RepeatButton.Template>
+            </RepeatButton>
+            <RepeatButton Click="DecreaseButton_Click" Grid.Row="1">
+                <RepeatButton.Template>
+                    <ControlTemplate TargetType="RepeatButton">
+                        <Grid x:Name="grid" Background="Transparent">
+                            <Polyline x:Name="tri" Points="0,0 7,0 3.5,4" Fill="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="grid" Property="Background" Value="#40ffffff"/>
+                                <Setter TargetName="tri" Property="Fill" Value="#9090d0"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="tri" Property="Fill" Value="#000080"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </RepeatButton.Template>
+            </RepeatButton>
+        </Grid>
+        <TextBox Name="TextBox" TextChanged="TextBox_TextChanged" LostFocus="TextBox_LostFocus" Foreground="White" VerticalContentAlignment="Center" HorizontalContentAlignment="Right" FontFamily="Microsoft YaHei" BorderThickness="0" Background="{x:Null}" BorderBrush="{x:Null}" Padding="0,3" Grid.ColumnSpan="2"/>
+        <GridSplitter Visibility="{Binding Visibility,ElementName=Buttons}" DragDelta="Drag_DragDelta" HorizontalAlignment="Right">
+            <GridSplitter.Template>
+                <ControlTemplate>
+                    <Canvas Width="0">
+                        <Rectangle Fill="Transparent" Width="6" Height="24" Canvas.Left="-3"/>
+                        <Rectangle Fill="White" Width="2" Height="24" IsHitTestVisible="False" Canvas.Left="-1"/>
+                    </Canvas>
+                </ControlTemplate>
+            </GridSplitter.Template>
+        </GridSplitter>
+    </Grid>
+</UserControl>

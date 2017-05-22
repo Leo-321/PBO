@@ -1,0 +1,12 @@
+﻿<Canvas x:Class="PokemonBattleOnline.PBO.Editor.BaseHexagon"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        DataContextChanged="Canvas_DataContextChanged" SnapsToDevicePixels="True">
+    <Canvas Opacity="0.5">
+        <Line Stroke="#c0c0c0" X1="0" Y1="-51" X2="0" Y2="51"/>
+        <Line Stroke="#c0c0c0" X1="-44.16729" Y1="-25.5" X2="44.16729" Y2="25.5"/>
+        <Line Stroke="#c0c0c0" X1="-44.16729" Y1="25.5" X2="44.16729" Y2="-25.5"/>
+        <Polygon Stroke="White" Points="0,-51 44.16729,-25.5 44.16729,25.5 0,51 -44.16729,25.5 -44.16729,-25.5"/>
+    </Canvas>
+    <Polygon Fill="#8000f0c0" x:Name="Hexagon"/>
+</Canvas>

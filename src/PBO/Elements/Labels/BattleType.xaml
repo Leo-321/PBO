@@ -1,0 +1,22 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+	                xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:c="clr-namespace:PokemonBattleOnline.PBO.Converters"
+                    xmlns:ui="clr-namespace:PokemonBattleOnline.PBO.Elements">
+    <DataTemplate x:Key="BattleTypeLabel">
+        <Border Background="{Binding Converter={x:Static c:BattleTypeBg.C}}" BorderBrush="#5c4e41" BorderThickness="1" CornerRadius="9" Height="18" Width="48">
+            <Border BorderBrush="#ccffffff" BorderThickness="1" CornerRadius="8">
+                <Border BorderBrush="#80ffffff" BorderThickness="1" CornerRadius="7">
+                    <Label Content="{Binding Converter={x:Static c:BattleTypeString.C}}" Background="{Binding Converter={x:Static c:BattleTypeBorder.C}}" Style="{x:Static ui:Controls.STextBlock}" FontSize="11" FontFamily="Microsoft YaHei" FontWeight="Normal" FontStyle="Normal" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,-2,0,0"/>
+                </Border>
+            </Border>
+        </Border>
+        <DataTemplate.Triggers>
+            <DataTrigger Binding="{Binding}" Value="Invalid">
+                <Setter Property="Visibility" Value="Collapsed"/>
+            </DataTrigger>
+            <DataTrigger Binding="{Binding}" Value="{x:Null}">
+                <Setter Property="Visibility" Value="Collapsed"/>
+            </DataTrigger>
+        </DataTemplate.Triggers>
+    </DataTemplate>
+</ResourceDictionary>

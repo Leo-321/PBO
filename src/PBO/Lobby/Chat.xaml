@@ -1,0 +1,39 @@
+﻿<UserControl x:Class="PokemonBattleOnline.PBO.Lobby.Chat"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:pm="clr-namespace:PokemonBattleOnline.Game;assembly=PBO.Game"
+             xmlns:ui="clr-namespace:PokemonBattleOnline.PBO.Elements"
+             xmlns:l="clr-namespace:PokemonBattleOnline.PBO.Lobby">
+    <Grid>
+        <TabControl x:Name="whom" BorderBrush="#80ffffff" BorderThickness="0,1" Background="#40ffffff" Margin="0,0,0,22" Padding="0">
+            <TabControl.ItemContainerStyle>
+                <Style TargetType="TabItem">
+                    <Setter Property="Background" Value="{x:Null}"/>
+                    <Setter Property="HeaderTemplate">
+                        <Setter.Value>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal" Background="Transparent">
+                                    <TextBlock Text="{Binding Name}" Margin="1,0" FontSize="13"/>
+                                    <Button Name="close" Click="close_Click" Style="{x:Static ui:Controls.XButton}" FontSize="15" Margin="5,-1,0,0" Visibility="Hidden"/>
+                                </StackPanel>
+                                <DataTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter TargetName="close" Property="Visibility" Value="Visible"/>
+                                    </Trigger>
+                                </DataTemplate.Triggers>
+                            </DataTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </TabControl.ItemContainerStyle>
+            <TabItem Header="全部" Style="{x:Null}" Background="{x:Null}">
+                <FlowDocumentScrollViewer Background="{x:Null}" Name="chatViewer" IsToolBarVisible="False" BorderThickness="0" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Visible">
+                    <FlowDocument FontSize="12" TextAlignment="Left" PagePadding="0">
+                        <Paragraph x:Name="chat" Margin="3"/>
+                    </FlowDocument>
+                </FlowDocumentScrollViewer>  
+            </TabItem>
+        </TabControl>
+        <l:ChatBox x:Name="Speaking" Height="22" VerticalAlignment="Bottom"/>
+    </Grid>
+</UserControl>

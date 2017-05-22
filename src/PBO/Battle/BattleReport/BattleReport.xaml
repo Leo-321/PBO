@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="PokemonBattleOnline.PBO.Battle.BattleReport"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid UseLayoutRounding="True">
+        <FlowDocumentScrollViewer Name="reportViewer" IsToolBarVisible="False" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Visible" SnapsToDevicePixels="True" BorderThickness="0">
+            <FlowDocumentScrollViewer.Resources>
+                <Style TargetType="FlowDocument">
+                    <Setter Property="FontFamily" Value="Microsoft YaHei"/>
+                    <Setter Property="PagePadding" Value="0"/>
+                </Style>
+                <Style TargetType="Paragraph">
+                    <Setter Property="Margin" Value="0"/>
+                </Style>
+            </FlowDocumentScrollViewer.Resources>
+        </FlowDocumentScrollViewer>
+        <Button Content="B" Visibility="Collapsed" HorizontalAlignment="Right" VerticalAlignment="Center" Click="previousTurn_Click"/>
+    </Grid>
+</UserControl>

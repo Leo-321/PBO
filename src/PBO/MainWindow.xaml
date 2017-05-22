@@ -1,0 +1,24 @@
+﻿<Window x:Class="PokemonBattleOnline.PBO.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:pm="clr-namespace:PokemonBattleOnline.Game;assembly=PBO.Game"
+        xmlns:ui="clr-namespace:PokemonBattleOnline.PBO.Elements"
+        xmlns:pbo="clr-namespace:PokemonBattleOnline.PBO"
+        Title="Pokemon Battle Online" MinWidth="560" MinHeight="500" TextOptions.TextRenderingMode="Grayscale">
+    <Grid x:Name="grid" Loaded="Grid_Loaded" SizeChanged="Grid_SizeChanged">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition x:Name="c0"/>
+            <ColumnDefinition x:Name="c1"/>
+        </Grid.ColumnDefinitions>
+        <Rectangle SizeChanged="Rectangle_SizeChanged" Grid.Column="1" Height="1" VerticalAlignment="Top" IsHitTestVisible="False"/>
+        <pbo:LobbyPanel x:Name="lobby" Grid.Column="1"/>
+        <pbo:EditorPanel x:Name="editor" Margin="0,0,3,0"/>
+        <GridSplitter VerticalAlignment="Stretch" HorizontalAlignment="Right" ResizeDirection="Columns" Width="3" Background="#a5e4c3" ShowsPreview="True">
+            <GridSplitter.Effect>
+                <BlurEffect Radius="5"/>
+            </GridSplitter.Effect>
+        </GridSplitter>
+        <Border x:Name="SwitchLobby" MouseLeftButtonDown="Switch_MouseLeftButtonDown" ToolTip="大厅" Visibility="Collapsed" Width="10" Cursor="ScrollW" Background="{Binding Background,ElementName=lobby}" BorderBrush="#a5e4c3" BorderThickness="3,0,0,0" HorizontalAlignment="Right"/>
+        <Border x:Name="SwitchEditor" MouseLeftButtonDown="Switch_MouseLeftButtonDown" ToolTip="编辑器" Visibility="Collapsed" Width="10" Cursor="ScrollE" Background="#b6db9d" BorderBrush="#a5e4c3" BorderThickness="0,0,3,0" Grid.Column="1" HorizontalAlignment="Left"/>
+    </Grid>
+</Window>

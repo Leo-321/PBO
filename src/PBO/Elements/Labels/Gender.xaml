@@ -1,0 +1,17 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:ui="clr-namespace:PokemonBattleOnline.PBO.Elements">
+    <DataTemplate x:Key="GenderLabel">
+        <TextBlock Name="gender" FontSize="14"/>
+        <DataTemplate.Triggers>
+            <DataTrigger Binding="{Binding}" Value="Male">
+                <Setter TargetName="gender" Property="Text" Value="♂"/>
+                <Setter TargetName="gender" Property="Foreground" Value="#00adff"/>
+            </DataTrigger>
+            <DataTrigger Binding="{Binding}" Value="Female">
+                <Setter TargetName="gender" Property="Text" Value="♀"/>
+                <Setter TargetName="gender" Property="Foreground" Value="#ff0000"/>
+            </DataTrigger>
+        </DataTemplate.Triggers>
+    </DataTemplate>
+</ResourceDictionary>

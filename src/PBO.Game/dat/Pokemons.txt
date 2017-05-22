@@ -1,0 +1,802 @@
+﻿31	Monster	Grass	Green	1
+31	Monster	Grass	Green	1
+31	Monster	Grass	Green	2
+31	Monster	Dragon	Red	1
+31	Monster	Dragon	Red	1
+31	Monster	Dragon	Red	3
+31	Monster	Water1	Blue	1
+31	Monster	Water1	Blue	1
+31	Monster	Water1	Blue	2
+127	Bug		Green	1
+127	Bug		Green	1
+127	Bug		White	1
+127	Bug		Brown	1
+127	Bug		Yellow	1
+127	Bug		Yellow	2
+127	Flying		Brown	1
+127	Flying		Brown	1
+127	Flying		Brown	2
+127	Field		Purple	2
+127	Field		Brown	2
+127	Flying		Brown	1
+127	Flying		Brown	1
+127	Field	Dragon	Purple	1
+127	Field	Dragon	Purple	1
+127	Field	Fairy	Yellow	7
+127	Field	Fairy	Yellow	2
+127	Field		Yellow	2
+127	Field		Yellow	2
+254	Monster	Field	Blue	1
+254	Undiscovered		Blue	1
+254	Undiscovered		Blue	1
+0	Monster	Field	Purple	1
+0	Monster	Field	Purple	1
+0	Monster	Field	Purple	1
+191	Fairy		Pink	1
+191	Fairy		Pink	1
+191	Field		Brown	2
+191	Field		Yellow	2
+191	Fairy		Pink	1
+191	Fairy		Pink	1
+127	Flying		Purple	1
+127	Flying		Purple	1
+127	Grass		Blue	1
+127	Grass		Blue	1
+127	Grass		Red	1
+127	Bug	Grass	Red	1
+127	Bug	Grass	Red	1
+127	Bug		Purple	1
+127	Bug		Purple	1
+127	Field		Brown	2
+127	Field		Brown	2
+127	Field		Yellow	2
+127	Field		Yellow	2
+127	Water1	Field	Yellow	1
+127	Water1	Field	Blue	1
+127	Field		Brown	1
+127	Field		Brown	1
+63	Field		Brown	1
+63	Field		Brown	1
+127	Water1		Blue	1
+127	Water1		Blue	1
+127	Water1		Blue	1
+63	HumanLike		Brown	1
+63	HumanLike		Brown	1
+63	HumanLike		Brown	2
+63	HumanLike		Gray	1
+63	HumanLike		Gray	1
+63	HumanLike		Gray	1
+127	Grass		Green	1
+127	Grass		Green	1
+127	Grass		Green	1
+127	Water3		Blue	1
+127	Water3		Blue	1
+127	Mineral		Brown	2
+127	Mineral		Brown	2
+127	Mineral		Brown	2
+127	Field		Yellow	1
+127	Field		Yellow	1
+127	Monster	Water1	Pink	1
+127	Monster	Water1	Pink	2
+255	Mineral		Gray	1
+255	Mineral		Gray	1
+127	Flying	Field	Brown	1
+127	Flying		Brown	1
+127	Flying		Brown	1
+127	Water1	Field	White	1
+127	Water1	Field	White	1
+127	Amorphous		Purple	2
+127	Amorphous		Purple	2
+127	Water3		Purple	1
+127	Water3		Purple	1
+127	Amorphous		Purple	1
+127	Amorphous		Purple	1
+127	Amorphous		Purple	2
+127	Mineral		Gray	1
+127	HumanLike		Yellow	1
+127	HumanLike		Yellow	1
+127	Water3		Red	1
+127	Water3		Red	1
+255	Mineral		Red	1
+255	Mineral		Red	1
+127	Grass		Pink	1
+127	Grass		Yellow	2
+127	Monster		Brown	1
+127	Monster		Brown	2
+0	HumanLike		Brown	1
+0	HumanLike		Brown	1
+127	Monster		Pink	1
+127	Amorphous		Purple	1
+127	Amorphous		Purple	1
+127	Monster	Field	Gray	1
+127	Monster	Field	Gray	1
+254	Fairy		Pink	1
+127	Grass		Blue	1
+254	Monster		Brown	2
+127	Water1	Dragon	Blue	1
+127	Water1	Dragon	Blue	1
+127	Water2		Red	1
+127	Water2		Red	1
+255	Water3		Brown	1
+255	Water3		Purple	1
+127	HumanLike		Pink	1
+127	Bug		Green	1
+254	HumanLike		Red	1
+63	HumanLike		Yellow	1
+63	HumanLike		Red	1
+127	Bug		Brown	2
+0	Field		Brown	1
+127	Water2	Dragon	Red	1
+127	Water2	Dragon	Blue	2
+127	Monster	Water1	Blue	1
+255	Ditto		Purple	1
+31	Field		Brown	1
+31	Field		Blue	1
+31	Field		Yellow	1
+31	Field		Red	1
+255	Mineral		Pink	1
+31	Water1	Water3	Blue	1
+31	Water1	Water3	Blue	1
+31	Water1	Water3	Brown	1
+31	Water1	Water3	Brown	1
+31	Flying		Purple	2
+31	Monster		Black	1
+255	Undiscovered		Blue	1
+255	Undiscovered		Yellow	1
+255	Undiscovered		Yellow	1
+127	Water1	Dragon	Blue	1
+127	Water1	Dragon	Blue	1
+127	Water1	Dragon	Brown	1
+255	Undiscovered		Purple	3
+255	Undiscovered		Pink	1
+31	Monster	Grass	Green	1
+31	Monster	Grass	Green	1
+31	Monster	Grass	Green	1
+31	Field		Yellow	1
+31	Field		Yellow	1
+31	Field		Yellow	1
+31	Monster	Water1	Blue	1
+31	Monster	Water1	Blue	1
+31	Monster	Water1	Blue	1
+127	Field		Brown	1
+127	Field		Brown	1
+127	Flying		Brown	1
+127	Flying		Brown	1
+127	Bug		Red	1
+127	Bug		Red	1
+127	Bug		Green	1
+127	Bug		Red	1
+127	Flying		Purple	1
+127	Water2		Blue	1
+127	Water2		Blue	1
+127	Undiscovered		Yellow	1
+191	Undiscovered		Pink	1
+191	Undiscovered		Pink	1
+31	Undiscovered		White	1
+31	Flying	Fairy	White	1
+127	Flying		Green	1
+127	Flying		Green	1
+127	Monster	Field	White	1
+127	Monster	Field	Pink	1
+127	Monster	Field	Yellow	2
+127	Grass		Green	1
+127	Water1	Fairy	Blue	1
+127	Water1	Fairy	Blue	1
+127	Mineral		Brown	1
+127	Water1		Green	1
+127	Fairy	Grass	Pink	1
+127	Fairy	Grass	Green	1
+127	Fairy	Grass	Blue	1
+127	Field		Purple	1
+127	Grass		Yellow	1
+127	Grass		Yellow	1
+127	Bug		Red	1
+127	Water1	Field	Blue	1
+127	Water1	Field	Blue	1
+31	Field		Purple	1
+31	Field		Black	1
+127	Flying		Black	1
+127	Monster	Water1	Pink	1
+127	Amorphous		Gray	1
+255	Undiscovered		Black	28
+127	Amorphous		Blue	1
+127	Field		Yellow	1
+127	Bug		Gray	1
+127	Bug		Purple	1
+127	Field		Yellow	1
+127	Bug		Purple	1
+127	Mineral		Gray	2
+191	Field	Fairy	Pink	1
+191	Field	Fairy	Purple	1
+127	Water2		Gray	1
+127	Bug		Red	2
+127	Bug		Yellow	1
+127	Bug		Blue	2
+127	Field		Black	1
+127	Field		Brown	1
+127	Field		Brown	1
+127	Amorphous		Red	1
+127	Amorphous		Red	1
+127	Field		Brown	1
+127	Field		Brown	1
+191	Water1	Water3	Pink	1
+127	Water1	Water2	Gray	1
+127	Water1	Water2	Red	1
+127	Water1	Field	Red	1
+127	Water1		Purple	1
+127	Flying		Gray	1
+127	Field		Black	1
+127	Field		Black	2
+127	Water1	Dragon	Blue	1
+127	Field		Blue	1
+127	Field		Gray	1
+255	Mineral		Red	1
+127	Field		Brown	1
+127	Field		White	1
+0	Undiscovered		Purple	1
+0	HumanLike		Brown	1
+254	Undiscovered		Pink	1
+63	Undiscovered		Yellow	1
+63	Undiscovered		Red	1
+254	Field		Pink	1
+254	Fairy		Pink	1
+255	Undiscovered		Yellow	1
+255	Undiscovered		Brown	1
+255	Undiscovered		Blue	1
+127	Monster		Green	1
+127	Monster		Gray	1
+127	Monster		Green	2
+255	Undiscovered		White	1
+255	Undiscovered		Red	1
+255	Undiscovered		Green	1
+31	Monster	Dragon	Green	1
+31	Monster	Dragon	Green	1
+31	Monster	Dragon	Green	2
+31	Field		Red	1
+31	Field		Red	1
+31	Field		Red	2
+31	Monster	Water1	Blue	1
+31	Monster	Water1	Blue	1
+31	Monster	Water1	Blue	2
+127	Field		Gray	1
+127	Field		Gray	1
+127	Field		Brown	1
+127	Field		White	1
+127	Bug		Red	1
+127	Bug		White	1
+127	Bug		Yellow	1
+127	Bug		Purple	1
+127	Bug		Green	1
+127	Water1	Grass	Green	1
+127	Water1	Grass	Green	1
+127	Water1	Grass	Green	1
+127	Field	Grass	Brown	1
+127	Field	Grass	Brown	1
+127	Field	Grass	Brown	1
+127	Flying		Blue	1
+127	Flying		Blue	1
+127	Water1	Flying	White	1
+127	Water1	Flying	Yellow	1
+127	Amorphous		White	1
+127	Amorphous		White	1
+127	Amorphous		White	2
+127	Water1	Bug	Blue	1
+127	Water1	Bug	Blue	1
+127	Fairy	Grass	Brown	1
+127	Fairy	Grass	Green	1
+127	Field		Brown	1
+127	Field		White	1
+127	Field		Brown	1
+127	Bug		Gray	1
+127	Bug		Yellow	1
+255	Mineral		Brown	1
+127	Monster	Field	Pink	1
+127	Monster	Field	Blue	1
+127	Monster	Field	Blue	1
+63	HumanLike		Yellow	1
+63	HumanLike		Brown	1
+191	Undiscovered		Blue	1
+127	Mineral		Gray	1
+191	Field	Fairy	Pink	1
+191	Field	Fairy	Purple	1
+127	HumanLike		Purple	2
+127	Field	Fairy	Black	2
+127	Monster		Gray	1
+127	Monster		Gray	1
+127	Monster		Gray	2
+127	HumanLike		Blue	1
+127	HumanLike		Red	2
+127	Field		Green	1
+127	Field		Yellow	2
+127	Fairy		Yellow	1
+127	Fairy		Yellow	1
+0	Bug	HumanLike	Gray	1
+254	Bug	HumanLike	Purple	1
+127	Fairy	Grass	Green	1
+127	Amorphous		Green	1
+127	Amorphous		Purple	1
+127	Water2		Red	1
+127	Water2		Blue	2
+127	Field	Water2	Blue	1
+127	Field	Water2	Blue	1
+127	Field		Yellow	1
+127	Field		Red	2
+127	Field		Brown	1
+127	Field		Black	1
+127	Field		Purple	1
+127	Field	HumanLike	Brown	1
+127	Bug		Brown	1
+127	Bug		Green	1
+127	Bug		Green	1
+127	Grass	HumanLike	Green	1
+127	Grass	HumanLike	Green	1
+127	Flying	Dragon	Blue	1
+127	Flying	Dragon	Blue	2
+127	Field		White	1
+127	Field	Dragon	Black	1
+255	Mineral		Yellow	1
+255	Mineral		Red	1
+127	Water2		Gray	1
+127	Water2		Blue	1
+127	Water1	Water3	Red	1
+127	Water1	Water3	Red	1
+255	Mineral		Brown	1
+255	Mineral		Black	1
+31	Water3		Purple	1
+31	Water3		Green	1
+31	Water3		Gray	1
+31	Water3		Gray	1
+127	Water1	Dragon	Brown	1
+127	Water1	Dragon	Pink	1
+127	Fairy	Amorphous	White	4
+127	Field		Green	1
+127	Amorphous		Black	1
+127	Amorphous		Black	2
+127	Amorphous		Black	1
+127	Amorphous		Black	1
+127	Monster	Grass	Green	1
+127	Amorphous		Blue	1
+127	Field		White	2
+127	Undiscovered		Blue	1
+127	Fairy	Mineral	Gray	1
+127	Fairy	Mineral	Gray	2
+127	Water1	Field	Blue	1
+127	Water1	Field	Blue	1
+127	Water1	Field	Blue	1
+127	Water1		Blue	1
+127	Water1		Blue	1
+127	Water1		Pink	1
+31	Water1	Water2	Gray	1
+191	Water2		Pink	1
+127	Dragon		Blue	1
+127	Dragon		White	1
+127	Dragon		Blue	2
+255	Mineral		Blue	1
+255	Mineral		Blue	1
+255	Mineral		Blue	2
+255	Undiscovered		Brown	1
+255	Undiscovered		Blue	1
+255	Undiscovered		Gray	1
+254	Undiscovered		Red	2
+0	Undiscovered		Blue	2
+255	Undiscovered		Blue	2
+255	Undiscovered		Red	2
+255	Undiscovered		Green	2
+255	Undiscovered		Yellow	1
+255	Undiscovered		Red	4
+31	Monster	Grass	Green	1
+31	Monster	Grass	Green	1
+31	Monster	Grass	Green	1
+31	Field	HumanLike	Brown	1
+31	Field	HumanLike	Brown	1
+31	Field	HumanLike	Brown	1
+31	Water1	Field	Blue	1
+31	Water1	Field	Blue	1
+31	Water1	Field	Blue	1
+127	Flying		Brown	1
+127	Flying		Brown	1
+127	Flying		Brown	1
+127	Water1	Field	Brown	1
+127	Water1	Field	Brown	1
+127	Bug		Red	1
+127	Bug		Red	1
+127	Field		Blue	1
+127	Field		Blue	1
+127	Field		Blue	1
+127	Undiscovered		Green	1
+127	Fairy	Grass	Green	1
+31	Monster		Blue	1
+31	Monster		Blue	1
+31	Monster		Gray	1
+31	Monster		Gray	1
+127	Bug		Gray	3
+254	Bug		Gray	3
+0	Bug		Yellow	1
+31	Bug		Yellow	1
+254	Bug		Yellow	1
+127	Field	Fairy	White	1
+127	Water1	Field	Brown	1
+127	Water1	Field	Brown	1
+127	Fairy	Grass	Pink	1
+127	Fairy	Grass	Pink	2
+127	Water1	Amorphous	Purple	2
+127	Water1	Amorphous	Purple	2
+127	Field		Purple	1
+127	Amorphous		Purple	1
+127	Amorphous		Purple	1
+127	Field	HumanLike	Brown	1
+127	Field	HumanLike	Brown	2
+127	Amorphous		Purple	1
+127	Flying		Black	1
+191	Field		Gray	1
+191	Field		Gray	1
+127	Undiscovered		Yellow	1
+127	Field		Purple	1
+127	Field		Purple	1
+255	Mineral		Green	1
+255	Mineral		Green	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Pink	1
+254	Undiscovered		Pink	1
+127	Flying		Black	1
+127	Amorphous		Purple	1
+127	Monster	Dragon	Blue	1
+127	Monster	Dragon	Blue	1
+127	Monster	Dragon	Blue	2
+31	Undiscovered		Black	1
+31	Undiscovered		Blue	1
+31	Field	HumanLike	Blue	2
+127	Field		Brown	1
+127	Field		Brown	1
+127	Bug	Water3	Purple	1
+127	Bug	Water3	Purple	1
+127	HumanLike		Blue	1
+127	HumanLike		Blue	1
+127	Grass		Green	1
+127	Water2		Blue	1
+127	Water2		Blue	1
+127	Undiscovered		Blue	1
+127	Monster	Grass	White	1
+127	Monster	Grass	White	2
+127	Field		Black	1
+255	Mineral		Gray	1
+127	Monster		Pink	1
+127	Monster	Field	Gray	1
+127	Grass		Blue	1
+63	HumanLike		Yellow	1
+63	HumanLike		Red	1
+31	Flying	Fairy	White	1
+127	Bug		Green	1
+31	Field		Green	1
+31	Field		Blue	1
+127	Bug		Purple	1
+127	Field		Brown	1
+255	Mineral		Red	1
+0	Amorphous		White	2
+127	Mineral		Gray	1
+127	Amorphous		Black	1
+254	Fairy	Mineral	White	1
+255	Amorphous		Red	6
+255	Undiscovered		Yellow	1
+255	Undiscovered		Pink	1
+255	Undiscovered		Blue	1
+255	Undiscovered		White	1
+255	Undiscovered		Purple	1
+127	Undiscovered		Brown	1
+255	Undiscovered		White	1
+255	Undiscovered		Black	2
+254	Undiscovered		Yellow	1
+255	Water1	Fairy	Blue	1
+255	Water1	Fairy	Blue	1
+255	Undiscovered		Black	1
+255	Undiscovered		Green	2
+255	Undiscovered		Gray	18
+255	Undiscovered		Yellow	1
+31	Field	Grass	Green	1
+31	Field	Grass	Green	1
+31	Field	Grass	Green	1
+31	Field		Red	1
+31	Field		Red	1
+31	Field		Red	1
+31	Field		Blue	1
+31	Field		Blue	1
+31	Field		Blue	1
+127	Field		Brown	1
+127	Field		Brown	1
+127	Field		Brown	1
+127	Field		Gray	1
+127	Field		Gray	1
+127	Field		Purple	1
+127	Field		Purple	1
+31	Field		Green	1
+31	Field		Green	1
+31	Field		Red	1
+31	Field		Red	1
+31	Field		Blue	1
+31	Field		Blue	1
+127	Field		Pink	1
+127	Field		Pink	1
+127	Flying		Gray	1
+127	Flying		Gray	1
+127	Flying		Gray	1
+127	Field		Black	1
+127	Field		Black	1
+127	Mineral		Blue	1
+127	Mineral		Blue	1
+127	Mineral		Blue	1
+127	Field	Flying	Blue	1
+127	Field	Flying	Blue	1
+127	Field		Gray	1
+127	Field		Gray	1
+127	Fairy		Pink	2
+63	HumanLike		Gray	1
+63	HumanLike		Gray	1
+63	HumanLike		Brown	1
+127	Water1		Blue	1
+127	Water1		Blue	1
+127	Water1		Blue	1
+0	HumanLike		Red	1
+0	HumanLike		Blue	1
+127	Bug		Yellow	1
+127	Bug		Green	1
+127	Bug		Yellow	1
+127	Bug		Red	1
+127	Bug		Gray	1
+127	Bug		Red	1
+127	Grass	Fairy	Green	1
+127	Grass	Fairy	Green	1
+254	Grass		Green	1
+254	Grass		Green	1
+127	Water2		Green	2
+127	Field		Brown	1
+127	Field		Brown	1
+127	Field		Red	1
+127	Field		Red	1
+127	Field		Red	2
+127	Grass		Green	1
+127	Bug	Mineral	Red	1
+127	Bug	Mineral	Red	1
+127	Field	Dragon	Yellow	1
+127	Field	Dragon	Red	1
+127	Flying		Black	1
+127	Mineral	Amorphous	Black	1
+127	Mineral	Amorphous	Yellow	1
+31	Water1	Water3	Blue	1
+31	Water1	Water3	Blue	1
+31	Flying	Water3	Yellow	1
+31	Flying	Water3	Yellow	1
+127	Mineral		Green	1
+127	Mineral		Green	1
+31	Field		Gray	1
+31	Field		Gray	1
+191	Field		Gray	1
+191	Field		Gray	1
+191	HumanLike		Purple	1
+191	HumanLike		Purple	1
+191	HumanLike		Purple	1
+127	Amorphous		Green	1
+127	Amorphous		Green	1
+127	Amorphous		Green	1
+127	Water1	Flying	Blue	1
+127	Water1	Flying	White	1
+127	Mineral		White	1
+127	Mineral		White	1
+127	Mineral		White	1
+127	Field		Yellow	4
+127	Field		Brown	4
+127	Field		White	1
+127	Bug		Blue	1
+127	Bug		Gray	1
+127	Grass		White	1
+127	Grass		White	1
+127	Amorphous		White	1
+127	Amorphous		White	1
+127	Water1	Water2	Pink	1
+127	Bug		Yellow	1
+127	Bug		Yellow	1
+127	Grass	Mineral	Gray	1
+127	Grass	Mineral	Gray	1
+255	Mineral		Gray	1
+255	Mineral		Gray	1
+255	Mineral		Gray	1
+127	Amorphous		White	1
+127	Amorphous		Blue	1
+127	Amorphous		Blue	1
+127	HumanLike		Blue	1
+127	HumanLike		Brown	1
+127	Amorphous		White	1
+127	Amorphous		Black	1
+127	Amorphous		Black	1
+127	Monster	Dragon	Green	1
+127	Monster	Dragon	Green	1
+127	Monster	Dragon	Yellow	1
+127	Field		White	1
+127	Field		White	1
+255	Mineral		Blue	1
+127	Bug		Red	1
+127	Bug		Red	1
+127	Water1	Amorphous	Brown	1
+127	Field	HumanLike	Yellow	1
+127	Field	HumanLike	Purple	1
+127	Dragon	Monster	Red	1
+255	Mineral		Green	1
+255	Mineral		Green	1
+127	HumanLike		Red	1
+127	HumanLike		Red	1
+127	Field		Brown	1
+0	Flying		White	1
+0	Flying		Red	1
+254	Flying		Brown	1
+254	Flying		Brown	1
+127	Field		Red	1
+127	Bug		Gray	1
+127	Dragon		Blue	1
+127	Dragon		Blue	1
+127	Dragon		Blue	1
+127	Bug		White	1
+127	Bug		White	1
+255	Undiscovered		Blue	1
+255	Undiscovered		Gray	1
+255	Undiscovered		Green	1
+0	Undiscovered		Green	2
+0	Undiscovered		Blue	2
+255	Undiscovered		White	1
+255	Undiscovered		Black	1
+0	Undiscovered		Brown	2
+255	Undiscovered		Gray	3
+255	Undiscovered		Yellow	2
+255	Undiscovered		White	2
+255	Undiscovered		Purple	5
+31	Field		Green	1
+31	Field		Green	1
+31	Field		Green	1
+31	Field		Red	1
+31	Field		Red	1
+31	Field		Red	1
+31	Water1		Blue	1
+31	Water1		Blue	1
+31	Water1		Blue	2
+127	Field		Brown	1
+127	Field		Brown	1
+127	Flying		Red	1
+127	Flying		Red	1
+127	Flying		Red	1
+127	Bug		Black	1
+127	Bug		Black	1
+127	Bug		Black	20
+255	Field		Brown	1
+255	Field		Brown	1
+254	Fairy		White	5
+254	Fairy		White	6
+254	Fairy		White	5
+127	Field		Brown	1
+127	Field		Brown	1
+127	Field	HumanLike	White	1
+127	Field	HumanLike	White	1
+127	Field		White	10
+127	Field		Gray	1
+127	Field		White	2
+127	Mineral		Brown	1
+127	Mineral		Brown	1
+127	Mineral		Brown	2
+127	Fairy		Pink	1
+127	Fairy		Pink	1
+127	Fairy		White	1
+127	Fairy		White	1
+127	Water1	Water2	Blue	1
+127	Water1	Water2	Blue	1
+127	Water3		Brown	1
+127	Water3		Brown	1
+127	Water1	Dragon	Brown	1
+127	Water1	Dragon	Brown	1
+127	Water1	Water3	Blue	1
+127	Water1	Water3	Blue	1
+127	Monster	Dragon	Yellow	1
+127	Monster	Dragon	Yellow	1
+31	Monster	Dragon	Brown	1
+31	Monster	Dragon	Red	1
+31	Monster		Blue	1
+31	Monster		Blue	1
+31	Field		Pink	1
+127	HumanLike		Green	1
+127	Field	Fairy	Yellow	1
+255	Fairy	Mineral	Gray	1
+127	Dragon		Purple	1
+127	Dragon		Purple	1
+127	Dragon		Purple	1
+127	Mineral		Gray	1
+127	Grass	Amorphous	Brown	1
+127	Grass	Amorphous	Brown	1
+127	Amorphous		Brown	4
+127	Amorphous		Brown	4
+127	Monster		Blue	1
+127	Monster		Blue	1
+127	Flying		Purple	1
+127	Flying		Purple	1
+255	Undiscovered		Blue	1
+255	Undiscovered		Red	1
+255	Undiscovered		Green	5
+255	Undiscovered		Pink	2
+255	Undiscovered		Purple	2
+255	Undiscovered		Brown	1
+31	Undiscovered		Brown	1
+31	Undiscovered		Brown	1
+31	Undiscovered		Brown	1
+31	Undiscovered		Brown	1
+31	Undiscovered		Brown	1
+31	Undiscovered		Brown	1
+31	Undiscovered		Brown	1
+31	Undiscovered		Brown	1
+31	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+191	Undiscovered		Brown	4
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	2
+127	Undiscovered		Brown	2
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+31	Undiscovered		Brown	1
+254	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+254	Undiscovered		Brown	1
+254	Undiscovered		Brown	1
+254	Undiscovered		Brown	1
+191	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+255	Undiscovered		Brown	1
+255	Undiscovered		Brown	18
+255	Undiscovered		Brown	2
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	2
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+255	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+127	Undiscovered		Brown	1
+255	Undiscovered		Brown	1
+255	Undiscovered		Brown	1
+255	Undiscovered		Brown	1
+255	Undiscovered		Brown	1
+255	Undiscovered		Brown	1
+255	Undiscovered		Brown	1
+255	Undiscovered		Brown	1
+255	Undiscovered		Brown	1
+255	Undiscovered		Brown	1
+255	Undiscovered		Brown	1
+255	Undiscovered		Brown	1
+255	Undiscovered		Brown	1
+255	Undiscovered		Brown	1
+255	Undiscovered		Brown	1
+255	Undiscovered		Brown	1
+255	Undiscovered		Brown	1
+255	Undiscovered		Brown	1
+255	Undiscovered		Brown	1

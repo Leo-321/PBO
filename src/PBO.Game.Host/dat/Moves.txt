@@ -1,0 +1,719 @@
+﻿Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+AttackWithState	BRN	10								1	1	0	0	1	0	0
+AttackWithState	FRZ	10								1	1	0	0	1	0	0
+AttackWithState	PAR	10								1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+OHKO										1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Lv7DChange			Atk			2			0	0	0	0	1	0	0	0
+Attack										1	1	0	0	1	0	0
+Attack										0	1	0	0	1	1	0
+Attack										1	1	0	0	1	1	0
+ForceToSwitch										0	1	1	0	1	0	1
+Attack										1	1	0	0	1	1	0
+AttackWithState	Trap	100								1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Lv7DChange			Accuracy			-1			0	0	1	1	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+OHKO										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+AttackWithState	PAR	30								1	1	0	0	1	0	0
+AttackWithState	Trap	100								1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Lv7DChange			Def			-1			0	0	1	1	0	1	0	0
+AttackWithState	PSN	30								0	1	0	0	1	0	0
+AttackWithState	PSN	20								0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Lv7DChange			Def			-1			0	0	1	1	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Lv7DChange			Atk			-1			0	0	1	1	0	1	0	1
+ForceToSwitch										0	1	1	0	1	0	1
+AddState	SLP	0								0	1	1	0	1	0	1
+AddState	Confuse	0								0	1	1	0	1	0	1
+Attack										0	1	0	0	1	0	0
+AddState	Disable	0								0	1	1	0	1	0	1
+AttackWithTargetLv7DChange			SpDef			-1			10	0	1	0	0	1	0	0
+AttackWithState	BRN	10								0	1	0	0	1	0	0
+AttackWithState	BRN	10								0	1	0	0	1	0	0
+AddTeamState										0	0	0	1	0	0	0
+Attack										0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+AttackWithState	FRZ	10								0	1	0	0	1	0	0
+AttackWithState	FRZ	10								0	1	0	0	1	0	0
+AttackWithState	Confuse	10								0	1	0	0	1	0	0
+AttackWithTargetLv7DChange			Speed			-1			10	0	1	0	0	1	0	0
+AttackWithTargetLv7DChange			Atk			-1			10	0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										1	1	0	0	1	1	0
+Attack										1	1	0	0	1	1	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	0	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+AttackAndAbsorb										0	1	0	0	1	0	0
+AttackAndAbsorb										0	1	0	0	1	0	0
+AddState	LeechSeed	0								0	1	1	0	1	0	0
+Lv7DChange			Atk	SpAtk		1	1		0	0	0	0	1	0	0	0
+Attack										0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+AddState	PSN	0								0	1	1	0	1	0	0
+AddState	PAR	0								0	1	1	0	1	0	0
+AddState	SLP	0								0	1	1	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Lv7DChange			Speed			-1			0	0	1	1	0	1	0	0
+Attack										0	1	0	0	1	0	0
+AttackWithState	Trap	100								0	1	0	0	1	0	0
+AttackWithState	PAR	10								0	1	0	0	1	0	0
+AttackWithState	PAR	10								0	1	0	0	1	0	0
+AddState	PAR	0								0	1	1	0	1	0	0
+AttackWithState	PAR	30								0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+OHKO										0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+AddState	PSN	0								0	1	1	0	1	0	0
+AttackWithState	Confuse	10								0	1	0	0	1	0	0
+AttackWithTargetLv7DChange			SpDef			-1			10	0	1	0	0	1	0	0
+AddState	SLP	0								0	1	1	0	1	0	0
+Lv7DChange			Atk			1			0	0	0	0	1	0	0	0
+Lv7DChange			Speed			2			0	0	0	0	1	0	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Special										0	0	0	0	0	0	0
+Attack										0	1	0	0	1	0	0
+Special										0	1	0	0	0	0	1
+Lv7DChange			Def			-2			0	0	1	1	0	1	0	1
+Lv7DChange			Evasion			1			0	0	0	0	1	0	0	0
+HpRecover										0	0	0	1	0	0	0
+Lv7DChange			Def			1			0	0	0	0	1	0	0	0
+Lv7DChange			Evasion			2			0	0	0	0	1	0	0	0
+Lv7DChange			Accuracy			-1			0	0	1	1	0	1	0	0
+AddState	Confuse	0								0	1	1	0	1	0	0
+Lv7DChange			Def			1			0	0	0	0	1	0	0	0
+Lv7DChange			Def			1			0	0	0	0	1	0	0	0
+Lv7DChange			Def			2			0	0	0	0	1	0	0	0
+AddTeamState										0	0	0	1	0	0	0
+AddMapState										0	0	0	0	0	0	0
+AddTeamState										0	0	0	1	0	0	0
+Special										0	0	0	1	0	0	0
+Attack										1	1	0	0	0	0	0
+Special										0	0	0	0	0	0	0
+Special										0	0	0	0	0	0	0
+Attack										0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+AttackWithState	PAR	30								1	1	0	0	1	0	0
+AttackWithState	PSN	40								0	1	0	0	1	0	0
+AttackWithState	PSN	30								0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+AttackWithState	BRN	10								0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+AttackWithState	Trap	100								1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack		100								1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+AttackWithTargetLv7DChange			Speed			-1			10	1	1	0	0	1	0	0
+Lv7DChange			SpDef			2			0	0	0	0	1	0	0	0
+Lv7DChange			Accuracy			-1			0	0	1	1	0	1	0	0
+HpRecover										0	0	0	1	0	0	0
+Attack										1	1	0	0	1	0	0
+AddState	PAR	0								0	1	1	0	1	0	0
+AttackAndAbsorb										0	1	0	0	1	0	0
+AddState	PSN	0								0	1	1	0	1	0	0
+Attack										0	1	0	0	1	0	0
+AttackAndAbsorb										1	1	0	0	1	0	0
+AddState	SLP	0								0	1	1	0	1	0	0
+Attack										0	1	0	0	1	1	0
+Special										0	0	0	0	0	0	0
+AttackWithTargetLv7DChange			Speed			-1			10	0	1	0	0	1	0	0
+AttackWithState	Confuse	20								1	1	0	0	1	0	0
+AddState	SLP	0								0	1	1	0	1	0	0
+Lv7DChange			Accuracy			-1			0	0	1	1	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Special										0	0	0	0	0	0	0
+Lv7DChange			Def			2			0	0	0	0	1	0	0	0
+Attack										1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Special										0	0	0	1	0	0	0
+Attack										0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Lv7DChange			Atk			1			0	0	0	0	1	0	0	0
+Special										0	0	0	1	0	0	0
+AttackWithState										0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Special										0	0	0	1	0	0	0
+Attack										1	1	0	0	0	0	0
+Special										0	0	0	0	0	0	1
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Special										0	1	1	0	1	0	0
+Special										0	1	0	0	1	0	0
+AddState	Nightmare	0								0	1	0	0	1	0	0
+AttackWithState	BRN	10								1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	1
+Special										0	0	0	0	0	0	1
+Attack										1	1	0	0	1	0	0
+Special										0	0	0	0	0	0	1
+Attack										0	1	0	0	1	1	0
+Lv7DChange			Speed			-2			0	0	1	1	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Special										0	1	1	0	1	0	1
+AttackWithState	FRZ	10								0	1	0	0	1	0	0
+Special										0	0	0	0	0	0	0
+Attack										1	1	0	0	1	0	0
+Lv7DChange			Speed			-2			0	0	1	1	0	1	0	0
+Attack										1	1	0	0	1	0	0
+AddState	Confuse	0								0	1	1	0	1	0	0
+Special										0	0	0	1	0	0	0
+AttackWithState	PSN	30								0	1	0	0	1	0	0
+AttackWithTargetLv7DChange			Accuracy			-1			100	0	1	0	0	1	0	0
+AttackWithTargetLv7DChange			Accuracy			-1			50	0	1	0	0	1	0	0
+AddTeamState										0	0	1	0	0	0	0
+AttackWithState	PAR	100								0	1	0	0	1	0	0
+AddState	CanAttack	0								0	1	1	0	1	0	1
+Special										0	0	0	0	0	0	1
+AddState	PerishSong	0								0	0	0	0	0	1	1
+AttackWithTargetLv7DChange			Speed			-1			100	0	1	0	0	1	0	0
+Special										0	0	0	0	0	0	0
+Attack										0	1	0	0	1	0	0
+Special										0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+AddMapState										0	0	0	0	0	0	0
+AttackAndAbsorb										0	1	0	0	1	0	0
+Special										0	0	0	0	0	0	0
+Lv7DChange			Atk			-2			0	0	1	1	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+ConfusionWithLv7DChange	Confuse	0	Atk			2			0	0	1	1	0	1	0	0
+HpRecover										0	0	0	1	0	0	0
+AttackWithState	PAR	30								1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+AttackWithSelfLv7DChange			Def			1			10	1	1	0	0	1	0	0
+Special										0	1	1	0	1	0	0
+AddState	Attract	0								0	1	1	0	1	0	1
+Special										0	0	0	0	0	0	0
+Special										0	0	0	1	0	0	1
+Attack										1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+AddTeamState										0	0	0	1	0	0	0
+Special										0	1	0	0	1	0	0
+AttackWithState	BRN	50								0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+AttackWithState	Confuse	100								1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+AttackWithState	PAR	30								0	1	0	0	1	0	0
+Special										0	0	0	0	0	0	0
+Special										0	1	1	0	1	0	1
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Lv7DChange			Evasion			-1			0	0	1	1	0	1	0	0
+AttackWithTargetLv7DChange			Def			-1			30	1	1	0	0	1	0	0
+AttackWithSelfLv7DChange			Atk			1			10	1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+HpRecover										0	0	0	1	0	0	0
+HpRecover										0	0	0	1	0	0	0
+HpRecover										0	0	0	1	0	0	0
+Attack										0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+AddMapState										0	0	0	0	0	0	0
+AddMapState										0	0	0	0	0	0	0
+AttackWithTargetLv7DChange			Def			-1			20	1	1	0	0	1	0	0
+Attack										0	1	0	0	0	0	0
+Special										0	0	0	0	0	0	1
+Attack										1	1	0	0	1	0	0
+AttackWithSelfLv7DChange			All			1			10	0	1	0	0	1	0	0
+AttackWithTargetLv7DChange			SpDef			-1			20	0	1	0	0	1	0	0
+Special										0	0	0	0	0	0	0
+AttackWithTargetLv7DChange			Def			-1			50	1	1	0	0	1	0	0
+AttackWithState	Trap	100								0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	1
+Special										0	0	0	1	0	0	0
+Attack										0	1	0	0	0	0	0
+HpRecover										0	0	0	1	0	0	0
+AttackWithState	BRN	10								0	1	0	0	1	0	0
+AddMapState										0	0	0	0	0	0	0
+AddState	Torment	0								0	1	1	0	1	0	1
+ConfusionWithLv7DChange	Confuse	0	SpAtk			1			0	0	1	1	0	1	0	0
+AddState	BRN	0								0	1	1	0	1	0	0
+Special										0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	0	0	0
+Attack										1	1	0	0	1	0	0
+Special										0	0	0	0	0	0	0
+Special										0	0	0	0	0	0	0
+Lv7DChange			SpDef			1			0	0	0	0	1	0	0	0
+Special										0	1	1	0	1	0	1
+Special										0	0	0	0	0	0	1
+Special										0	1	0	0	1	0	0
+Special										0	0	0	0	0	0	1
+Special										0	0	0	1	0	0	0
+Special										0	0	0	0	0	0	0
+AddState	Ingrain	0								0	0	0	1	0	0	0
+AttackWithSelfLv7DChange			Atk	Def		-1	-1		100	1	1	0	0	1	0	0
+Special										0	0	0	0	0	0	0
+Special										0	0	0	1	0	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+AddState	Yawn	0								0	1	1	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Special										0	1	0	0	1	0	1
+Special										0	0	0	1	0	0	1
+Special										0	0	0	1	0	0	0
+Special										0	0	0	0	0	0	1
+Special										0	0	0	0	0	0	1
+Attack		30								0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Special										0	0	0	1	0	0	0
+Lv7DChange			SpAtk			3			0	0	0	0	1	0	0	0
+AttackWithTargetLv7DChange			SpDef			-1			50	0	1	0	0	1	0	0
+AttackWithTargetLv7DChange			SpAtk			-1			50	0	1	0	0	1	0	0
+Lv7DChange			Atk			-2			0	0	1	1	0	1	0	0
+AddState	Confuse	0								0	1	0	0	1	0	0
+AttackWithState	BRN	10								1	1	0	0	1	0	0
+AddMapState										0	0	0	0	0	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+HpRecover										0	0	0	1	0	0	0
+Attack										0	1	0	0	1	0	1
+AttackWithState	PSN	50								1	1	0	0	1	0	0
+AttackWithTargetLv7DChange			Def			-1			50	1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+AttackWithSelfLv7DChange			Atk			1			20	1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Special										0	0	0	1	0	0	0
+Lv7DChange			SpDef			-2			0	0	1	1	0	1	0	0
+Attack										0	1	0	0	1	0	0
+AttackWithSelfLv7DChange			SpAtk			-2			100	0	1	0	0	1	0	0
+AddState	CanAttack	0								0	1	1	0	1	0	1
+AttackWithTargetLv7DChange			Speed			-1			100	0	1	0	0	1	0	0
+AttackWithSelfLv7DChange			All			1			10	0	1	0	0	1	0	0
+Lv7DChange			SpDef			-2			0	0	1	1	0	1	0	1
+AddState	SLP	0								0	1	1	0	1	0	1
+Lv7DChange			Atk	Def		-1	-1		0	0	1	1	0	1	0	0
+Lv7DChange			Def	SpDef		1	1		0	0	0	0	1	0	0	0
+Attack										0	1	0	0	1	0	0
+AttackWithState	Confuse	10								0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+AttackWithState	Trap	100								0	1	0	0	1	0	0
+OHKO										0	1	0	0	1	0	0
+AttackWithTargetLv7DChange			Accuracy			-1			30	0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										1	1	0	0	1	1	0
+Attack										0	1	0	0	1	0	0
+Lv7DChange			Def			2			0	0	0	0	1	0	0	0
+Special										0	1	1	0	1	0	0
+Lv7DChange			Atk			1			0	0	0	0	1	0	0	0
+Attack										1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Lv7DChange			Atk	Def		1	1		0	0	0	0	1	0	0	0
+AttackWithState	PAR	30								1	1	0	0	1	1	0
+AttackWithTargetLv7DChange			Speed			-1			100	0	1	0	0	1	0	0
+AttackWithState	PSN	10								1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+AttackWithState	PAR	10								1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+AddMapState										0	0	0	0	0	0	0
+Lv7DChange			SpAtk	SpDef		1	1		0	0	0	0	1	0	0	0
+Attack										1	1	0	0	1	0	0
+Lv7DChange			Atk	Speed		1	1		0	0	0	0	1	0	0	0
+Attack										0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+AttackWithState	Confuse	20								0	1	0	0	1	1	0
+Special										0	0	0	0	0	0	0
+AttackWithSelfLv7DChange			SpAtk			-2			100	0	1	0	0	1	0	0
+HpRecover										0	0	0	1	0	0	0
+AddMapState										0	0	0	0	0	0	0
+AddState	CanAttack	0								0	1	1	0	1	0	1
+Attack										1	1	0	0	1	0	0
+AttackWithSelfLv7DChange			Speed			-1			100	1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Special										0	0	0	1	0	0	0
+Attack										0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										0	0	0	0	0	0	0
+Attack										1	1	0	0	1	1	0
+AddTeamState										0	0	0	1	0	0	0
+Special										0	0	0	0	0	0	0
+Attack										0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+AttackWithSelfLv7DChange			Def	SpDef		-1	-1		100	1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+AddState	Embargo	0								0	1	1	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Special										0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+AddState	HealBlock	0								0	1	1	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Special										0	0	0	1	0	0	0
+Special										0	1	1	0	1	0	0
+AddTeamState										0	0	0	1	0	0	0
+Attack										0	1	0	0	0	0	1
+Special										0	0	0	0	0	0	0
+Special										0	1	0	0	1	0	1
+Special										0	1	0	0	1	0	1
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Special										0	1	1	0	1	0	0
+Attack										1	1	0	0	1	0	0
+AddTeamState										0	0	1	0	0	0	0
+Special										0	1	0	0	1	0	1
+Special										0	0	0	1	0	0	0
+Special										0	0	0	1	0	0	0
+AttackWithState	BRN	10								1	1	0	0	1	0	0
+AttackWithState	PAR	30								1	1	0	0	1	0	0
+Attack										0	1	0	0	1	1	0
+Lv7DChange			Speed			2			0	0	0	0	1	0	0	0
+AttackWithState	PSN	30								1	1	0	0	1	0	0
+Attack										0	1	0	0	1	1	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										0	1	0	0	1	1	0
+Attack										1	1	0	0	1	0	0
+AttackWithTargetLv7DChange			SpDef			-1			10	0	1	0	0	1	0	1
+Attack										0	1	0	0	1	1	0
+Attack										1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+AttackAndAbsorb										1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+AttackWithTargetLv7DChange			SpDef			-1			10	0	1	0	0	1	0	0
+AttackWithTargetLv7DChange			SpDef			-1			10	0	1	0	0	1	0	0
+Attack										1	1	0	0	1	1	0
+AttackWithTargetLv7DChange			SpDef			-1			10	0	1	0	0	1	0	0
+Special										0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Lv7DChange			SpAtk			2			0	0	0	0	1	0	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+AttackWithState	PAR	10								1	1	0	0	1	0	0
+AttackWithState	FRZ	10								1	1	0	0	1	0	0
+AttackWithState	BRN	10								1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+AttackWithTargetLv7DChange			Accuracy			-1			30	0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+AttackWithTargetLv7DChange			Accuracy			-1			30	0	1	0	0	1	0	0
+AttackWithTargetLv7DChange			SpDef			-1			10	0	1	0	0	1	0	0
+AttackWithState	Confuse	20								1	1	0	0	1	0	0
+Special										0	1	1	0	1	0	1
+AddMapState										0	0	0	0	1	0	0
+AttackWithSelfLv7DChange			SpAtk			-2			100	0	1	0	0	1	0	0
+AttackWithState	PAR	30								0	1	0	0	1	0	0
+AttackWithState	BRN	30								0	1	0	0	1	0	0
+AttackWithSelfLv7DChange			SpAtk			-2			100	0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+AttackWithState	PSN	10								1	1	0	0	1	0	0
+AttackWithState	PSN	30								0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Lv7DChange			SpAtk			-2			0	0	1	1	0	1	0	0
+AddTeamState										0	0	1	0	0	0	0
+Attack										1	1	0	0	1	0	0
+AttackWithState	Confuse	100								0	1	0	0	0	1	1
+Attack										0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+AttackWithSelfLv7DChange			SpAtk			1			70	0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Lv7DChange			Def	SpDef		1	1		0	0	0	0	1	0	0	0
+HpRecover										0	0	0	1	0	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Special										0	0	0	1	0	0	0
+Attack										1	1	0	0	1	0	0
+AttackWithState	Trap	100								0	1	0	0	1	0	0
+AddState	SLP	0								0	1	1	0	1	0	0
+AttackWithTargetLv7DChange			SpDef			-2			40	0	1	0	0	1	0	0
+AttackWithSelfLv7DChange		10	All			1			10	0	1	0	0	1	0	0
+Attack										1	0	0	0	1	0	0
+Lv7DChange			Atk	Accuracy		1	1		0	0	0	0	1	0	0	0
+AddTeamState										0	0	0	1	0	0	0
+Special										0	1	0	0	0	0	0
+Special										0	1	0	0	0	0	0
+AddMapState										0	0	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Lv7DChange			Speed			2			0	0	0	0	1	0	0	0
+Special										0	0	0	0	0	0	0
+AddState										0	1	1	0	1	0	0
+AddMapState										0	0	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+AttackWithState	PSN	10								0	1	0	0	1	0	0
+Lv7DChange			SpAtk	SpDef	Speed	1	1	1	0	0	0	0	1	0	0	0
+Attack										1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Special										0	1	1	0	1	0	0
+AttackWithSelfLv7DChange			Speed			1			100	1	1	0	0	1	0	0
+Lv7DChange			Atk	Def	Accuracy	1	1	1	0	0	0	0	1	0	0	0
+AttackWithTargetLv7DChange			Speed			-1			100	1	1	0	0	1	0	0
+AttackWithTargetLv7DChange			SpDef			-2			100	0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Special										0	1	1	0	1	0	0
+Special										0	1	1	0	1	0	0
+Special										0	0	0	0	0	0	1
+Attack										0	1	0	0	1	0	1
+Attack										0	1	0	0	1	0	1
+Attack										1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+AddTeamState										0	0	0	1	0	0	0
+Special										0	0	0	0	0	0	0
+AttackWithState	BRN	30								0	1	0	0	1	0	0
+Special										0	0	0	1	0	0	0
+HpRecover										0	1	1	0	0	1	0
+Attack										0	1	0	0	1	0	0
+Attack										1	1	0	0	1	1	0
+Lv7DChange			Speed	Atk		2	1		0	0	0	0	1	0	0	0
+Attack										1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Special										0	1	0	0	1	0	0
+Attack										1	1	0	0	1	1	0
+Special										0	1	0	0	0	0	1
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	0	0	0
+Special										0	1	0	0	1	0	0
+AttackWithState	BRN	100								0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+AttackWithTargetLv7DChange			SpAtk			-1			100	0	1	0	0	1	0	0
+AttackWithTargetLv7DChange			Speed			-1			100	0	1	0	0	1	0	0
+Attack		100								0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Lv7DChange			Atk	SpAtk		1	1		0	0	0	0	1	0	0	0
+AttackWithTargetLv7DChange			Speed			-1			100	0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+AttackAndAbsorb										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+AttackWithTargetLv7DChange			Def			-1			50	1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+AttackWithTargetLv7DChange			Accuracy			-1			50	0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Lv7DChange			Def			3			0	0	0	0	1	0	0	0
+AttackWithTargetLv7DChange			Accuracy			-1			40	0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+AttackWithState	Confuse	30								0	1	0	0	1	1	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+AttackWithState	BRN	30								0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+AttackWithState	SLP	10								0	1	0	0	1	0	1
+Attack										0	1	0	0	1	0	0
+AttackWithTargetLv7DChange			Speed			-1			100	0	1	0	0	1	0	0
+AttackWithState	PAR	20								1	1	0	0	1	0	0
+AttackWithState	BRN	20								0	1	0	0	1	0	0
+AttackWithSelfLv7DChange			SpAtk			1			50	0	1	0	0	1	0	0
+AttackWithState	PAR	30								0	1	0	0	1	0	0
+AttackWithState	BRN	30								0	1	0	0	1	0	0
+AttackWithTargetLv7DChange			SpAtk			-1			100	0	1	0	0	1	0	1
+Attack										0	1	0	0	1	0	0
+AttackWithSelfLv7DChange			Speed	Def	SpDef	-1	-1	-1	100	1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										1	1	0	0	1	1	0
+Special										0	0	0	1	0	0	0
+Attack										0	1	0	0	0	0	0
+Lv7DChange			Atk	SpAtk		1	1		0	0	0	0	0	0	1	0
+Special										0	0	1	0	0	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	0	0	0	1	0	0
+Special										0	1	1	0	1	0	0
+Lv7DChange			Atk	SpAtk		-1	-1		0	0	1	1	0	1	0	1
+Special										0	0	0	0	0	0	0
+AttackAndAbsorb										0	1	0	0	1	0	0
+Special										0	1	1	0	1	0	0
+Attack										0	1	0	0	1	0	0
+AttackWithState	FRZ	10								0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	1
+Lv7DChange			Atk	SpAtk		-1	-1		0	0	1	1	0	1	0	1
+Special										0	1	1	0	1	0	0
+AttackAndAbsorb										1	1	0	0	1	0	0
+Special										0	0	0	0	0	0	0
+Lv7DChange			Def			1			0	0	0	0	0	0	1	0
+Special										0	0	0	0	0	0	0
+Special										0	0	0	0	0	0	0
+Special										0	1	0	0	1	0	0
+AttackWithTargetLv7DChange			Atk			-1			10	0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+AttackWithTargetLv7DChange			SpAtk			-1			30	0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	1
+Special										0	0	0	0	1	0	1
+Special										0	0	0	0	0	0	0
+Lv7DChange			Atk			-1			0	0	0	1	0	1	0	1
+Lv7DChange			SpAtk			-1			0	0	0	1	0	1	0	1
+AttackWithSelfLv7DChange			Def			2			50	0	1	0	0	1	0	0
+AttackWithState	BRN	30								0	1	0	0	1	0	0
+Attack										0	0	0	0	1	0	1
+Attack										0	1	0	0	1	0	0
+AttackWithTargetLv7DChange			SpAtk			-1			100	0	1	0	0	1	0	0
+Special										0	0	0	0	0	0	0
+Lv7DChange			SpDef			1			0	0	0	0	0	0	0	0
+Lv7DChange			SpAtk			-2			0	0	1	1	0	1	0	0
+Lv7DChange			Atk	SpAtk	Speed	-1	-1	-1	0	0	1	1	0	1	0	0
+Special										0	1	1	0	1	0	1
+Lv7DChange			SpAtk	SpDef	Speed	2	2	2	0	0	0	0	0	0	0	0
+Lv7DChange			Def	SpDef		1	1		0	0	0	0	1	0	1	1
+Special										0	0	0	0	0	0	0
+Special										0	0	0	0	0	0	0
+Attack										0	1	0	0	1	0	0
+Special										0	0	0	0	0	0	0
+Special										0	0	0	0	0	0	1
+Lv7DChange										0	1	1	0	1	0	0
+AttackWithState	PAR	100								1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+AttackWithState	Trap	100								1	1	0	0	1	0	0
+AttackWithSelfLv7DChange			Atk			1			100	1	1	0	0	1	0	0
+AttackAndAbsorb										0	1	0	0	1	1	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+AttackWithSelfLv7DChange			Def	SpDef		-1	-1		100	1	1	0	0	1	0	0
+AttackWithSelfLv7DChange			Def			-1			100	0	0	0	0	0	0	0
+Attack										1	1	0	0	1	0	0
+AttackWithSelfLv7DChange			Speed			-1			100	1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Special										0	1	1	0	0	0	0
+Attack										1	1	0	0	1	0	0
+Special										0	1	0	0	0	0	1
+Special										0	1	1	0	1	0	0
+Attack										1	1	0	0	1	0	0
+AttackWithState	SoundBlock	100							100	1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+AttackWithTargetLv7DChange			Def			-1			20	0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	1
+Special										0	0	0	1	0	0	0
+Attack										0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Special									0	0	1	1	0	1	0	0
+AttackWithTargetLv7DChange			Def			-1			20	1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	1
+Lv7DChange			Atk	SpAtk		-1	-1		0	0	0	1	0	1	0	0
+Attack										1	1	0	0	1	0	0
+AttackWithTargetLv7DChange			Def			-1			100	1	1	0	0	1	0	0
+AttackWithTargetLv7DChange			Atk			-1			100	1	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+AttackWithTargetLv7DChange			Atk			-1			100	1	1	0	0	1	0	0
+Special										0	0	0	0	1	0	0
+Special										0	0	0	1	1	0	0
+Attack										1	1	0	0	1	0	0
+Special										0	0	0	0	0	0	0
+Attack										0	1	0	0	1	0	0
+Special										0	1	1	0	0	0	0
+Attack										0	1	0	0	1	0	0
+AttackWithSelfLv7DChange			SpAtk			-2			100	0	1	0	0	1	0	0
+HpRecover										0	1	1	0	0	0	0
+Attack										0	1	0	0	1	0	0
+Attack										0	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Lv7DChange			Def	SpDef		1	1		0	0	0	0	1	0	1	1
+Attack										1	1	0	0	1	0	0
+Special										0	1	0	0	1	0	1
+Attack										0	1	0	0	0	0	0
+HpRecover										0	0	0	1	1	0	0
+AttackWithSelfLv7DChange			SpAtk			-2			100	0	1	0	0	1	0	1
+Attack										0	1	0	0	0	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										1	1	0	0	1	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+AttackWithState	PAR	100								0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Lv7DChange			All			2			0	0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0
+Attack										0	0	0	0	0	0	0

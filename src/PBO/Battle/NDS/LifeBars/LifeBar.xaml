@@ -1,0 +1,10 @@
+﻿<Canvas x:Class="PokemonBattleOnline.PBO.Battle.LifeBar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        DataContextChanged="LifeBar_DataContextChanged" Height="4">
+    <Canvas.Resources>
+        <ImageBrush x:Key="Green" TileMode="Tile" Viewport="0,0,1,4" ViewportUnits="Absolute" ImageSource="/PBO;component/images/UpperScreen/StateBar/HpGreen.png"/>
+        <ImageBrush x:Key="Yellow" TileMode="Tile" Viewport="0,0,1,4" ViewportUnits="Absolute" ImageSource="/PBO;component/images/UpperScreen/StateBar/HpYellow.png"/>
+        <ImageBrush x:Key="Red" TileMode="Tile" Viewport="0,0,1,4" ViewportUnits="Absolute" ImageSource="/PBO;component/images/UpperScreen/StateBar/HpRed.png"/>
+    </Canvas.Resources>
+</Canvas>

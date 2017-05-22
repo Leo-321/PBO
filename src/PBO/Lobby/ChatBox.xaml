@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="PokemonBattleOnline.PBO.Lobby.ChatBox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid>
+        <Button HorizontalAlignment="Right" Width="22" Click="Button_Click"/>
+        <TextBox x:Name="Speaking" Margin="0,0,22,0" KeyDown="Speaking_KeyDown"/>
+        <TextBlock Text="输入聊天文字后回车..." IsHitTestVisible="False" Focusable="False" Margin="3,0,25,0" Foreground="Gray" VerticalAlignment="Center">
+            <TextBlock.Style>
+                <Style TargetType="TextBlock">
+                    <Setter Property="Visibility" Value="Collapsed"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Text,ElementName=Speaking}" Value="">
+                            <Setter Property="Visibility" Value="Visible"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBlock.Style>
+        </TextBlock>
+    </Grid>
+</UserControl>
